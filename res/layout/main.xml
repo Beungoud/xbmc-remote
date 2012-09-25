@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView01"
+	android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:background="@color/light_gray">
+
+		
+		<FrameLayout android:id="@+id/FrameLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="@color/black" android:layout_marginBottom="1px"><ImageView android:id="@+id/ImageView01" android:layout_height="wrap_content" android:src="@drawable/img_menu_xbmc" android:background="@color/black" android:layout_gravity="left" android:layout_width="wrap_content">
+		</ImageView></FrameLayout><TextView  android:layout_height="wrap_content"
+			android:background="@color/black" android:layout_width="fill_parent"
+			android:layout_marginBottom="1px" android:text="REMOTE"
+			android:drawableRight="@drawable/img_menu_arrow" android:gravity="center_vertical"
+			android:paddingLeft="20px" android:id="@+id/telecommande_image" android:height="45px"></TextView>
+		<TextView android:id="@+id/now_playing_image" android:layout_height="wrap_content"
+			android:background="@color/black" android:layout_width="fill_parent"
+			android:layout_marginBottom="1px" android:text="NOW PLAYING!"
+			android:drawableRight="@drawable/img_menu_arrow" android:gravity="center_vertical"
+			android:paddingLeft="20px" android:height="45px"></TextView>
+		<TextView android:id="@+id/music_image" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:layout_marginBottom="1px"
+			android:text="MUSIC" android:drawableRight="@drawable/img_menu_arrow"
+			android:gravity="center_vertical" android:drawableLeft="@drawable/img_menu_music"
+			android:paddingLeft="10px" android:background="@drawable/gradient" android:height="80px" android:textSize="20px"></TextView>
+		<TextView android:id="@+id/video_image" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:layout_marginBottom="1px"
+			android:text="VIDEO" android:drawableRight="@drawable/img_menu_arrow"
+			android:gravity="center_vertical" android:drawableLeft="@drawable/img_menu_video"
+			android:paddingLeft="10px" android:background="@drawable/gradient" android:height="80px" android:textSize="20px"></TextView>
+		<TextView android:id="@+id/image_image" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:layout_marginBottom="1px"
+			android:text="IMAGES" android:drawableRight="@drawable/img_menu_arrow"
+			android:gravity="center_vertical" android:paddingLeft="10px"
+			android:background="@drawable/gradient" android:drawableLeft="@drawable/img_menu_images" android:height="80px" android:textSize="20px"></TextView>
+		<TextView android:id="@+id/database_image" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:layout_marginBottom="1px"
+			android:text="LIBRARY" android:drawableRight="@drawable/img_menu_arrow"
+			android:gravity="center_vertical" android:paddingLeft="20px"
+			android:background="@drawable/gradient" android:height="80px" android:textSize="20px"></TextView>
+
+		<TextView android:id="@+id/configure_image" android:layout_height="wrap_content"
+			android:background="@color/black" android:layout_width="fill_parent"
+			android:layout_marginBottom="1px" android:text="CONFIGURE"
+			android:drawableRight="@drawable/img_menu_arrow" android:gravity="center_vertical"
+			android:paddingLeft="20px" android:height="45px"></TextView>
+		<Spinner android:layout_width="fill_parent" android:id="@+id/ServerList"
+		android:background="@color/black" 
+		android:layout_height="40px"></Spinner>
+
+	
+</LinearLayout>
+</ScrollView>

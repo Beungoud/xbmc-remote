@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content" android:text="@string/hello"
+		android:layout_width="wrap_content" android:layout_gravity="center" />
+	<!--	<ListView android:layout_width="wrap_content"-->
+	<!--
+		android:layout_height="wrap_content" android:id="@+id/MainMenuList" />
+	-->
+	<LinearLayout android:orientation="vertical" android:id="@+id/Vertical"
+		android:layout_gravity="center" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout android:id="@+id/LinearLayout02"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:layout_weight="0.5">
+			<LinearLayout android:id="@+id/LinearLayout01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_weight="0.5" android:orientation="vertical">
+				<ImageView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/playing"
+					android:adjustViewBounds="true" android:scaleType="fitXY"
+					android:layout_weight="0.5" android:maxWidth="128px"
+					android:minWidth="128px" android:layout_gravity="center"
+					android:id="@+id/now_playing_image">
+				</ImageView>
+				<TextView android:id="@+id/TextView01"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="Now Playing" android:layout_gravity="center" />
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_weight="0.5" android:orientation="vertical">
+				<ImageView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:adjustViewBounds="true"
+					android:scaleType="fitXY" android:layout_weight="0.5"
+					android:src="@drawable/music_folder" android:layout_gravity="center"
+					android:id="@+id/music_image">
+				</ImageView>
+				<TextView android:id="@+id/TextView01"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="Music" android:layout_gravity="center" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/LinearLayout02"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:layout_weight="0.5">
+			<LinearLayout android:id="@+id/LinearLayout01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_weight="0.5" android:orientation="vertical">
+				<ImageView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:adjustViewBounds="true"
+					android:scaleType="fitXY" android:layout_weight="0.5"
+					android:src="@drawable/video_folder" android:layout_gravity="center"
+					android:id="@+id/video_image">
+				</ImageView>
+				<TextView android:id="@+id/TextView01"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="Video" android:layout_gravity="center" />
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_weight="0.5" android:orientation="vertical">
+
+				<ImageView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:adjustViewBounds="true"
+					android:scaleType="fitXY" android:layout_weight="0.5" android:src="@drawable/video"
+					android:layout_gravity="center" android:id="@+id/database_image">
+				</ImageView>
+				<TextView android:id="@+id/TextView01"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_gravity="center" android:text="Database" />
+
+
+				<!--
+					<ImageView android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+				-->
+				<!--					android:adjustViewBounds="true"-->
+				<!--
+					android:scaleType="fitXY" android:layout_weight="0.5"
+					android:src="@drawable/video" android:layout_gravity="center"
+					android:id="@+id/tvshow_image">
+				-->
+				<!--				</ImageView>-->
+				<!--				<TextView android:id="@+id/TextView01"-->
+				<!--
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+				-->
+				<!--					android:layout_gravity="center" android:text="Database"/>-->
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/LinearLayout02"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:layout_weight="0.5">
+			<LinearLayout android:id="@+id/LinearLayout01"
+				android:layout_weight="0.5" android:orientation="vertical"
+				android:layout_height="fill_parent" android:layout_width="fill_parent">
+				<ImageView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:adjustViewBounds="true"
+					android:scaleType="fitXY" android:layout_weight="0.5"
+					android:src="@drawable/icone_telecommande" android:layout_gravity="center"
+					android:id="@+id/telecommande_image">
+				</ImageView>
+				<TextView android:id="@+id/TextView01"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_gravity="center" android:text="Remote control" />
+
+
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout01"
+				android:layout_weight="0.5" android:orientation="vertical"
+				android:layout_height="fill_parent" android:layout_width="fill_parent">
+				<ImageView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:src="@drawable/configure"
+					android:adjustViewBounds="true" android:scaleType="fitXY"
+					android:layout_weight="0.5" android:maxHeight="128px"
+					android:maxWidth="128px" android:layout_gravity="center"
+					android:id="@+id/configure_image">
+				</ImageView>
+				<TextView android:id="@+id/TextView01"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="Configure" android:layout_gravity="center" />
+
+			</LinearLayout>
+		</LinearLayout>
+		<Spinner android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/ServerList"></Spinner>
+	</LinearLayout>
+
+</LinearLayout>

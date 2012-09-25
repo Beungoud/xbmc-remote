@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<declare-styleable name="VolumeBar">
+
+		<attr name="progressDrawable" format="integer" />
+		<attr name="indeterminateDuration" format="integer" />
+		<attr name="minWidth" format="integer" />
+		<attr name="maxWidth" format="integer" />
+		<attr name="minHeight" format="integer" />
+		<attr name="maxHeight" format="integer" />
+		<attr name="indeterminateBehavior" format="integer" />
+		<attr name="interpolator" format="integer" />
+		<attr name="max" format="integer" />
+		<attr name="progress" format="integer" />
+		<attr name="secondaryProgress" format="integer" />
+		<attr name="indeterminateDrawable" format="integer" />
+		<attr name="indeterminateOnly" format="integer" />
+		<attr name="indeterminate" format="integer" />
+
+	</declare-styleable>
+
+</resources>

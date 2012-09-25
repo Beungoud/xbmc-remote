@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<TableRow android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		
+		<ImageButton android:id="@+id/BoutonMenu"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:background="@null" android:src="@drawable/bouton_menu"
+			android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_weight="0.5">
+		</ImageButton>
+			
+		<ImageButton android:id="@+id/BoutonHaut"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:background="@null" android:src="@drawable/fleche_haut"
+			android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_weight="0.5">
+		</ImageButton>
+		<ImageButton android:id="@+id/BoutonPrecedent"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:background="@null" android:src="@drawable/bouton_precedent"
+			android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_weight="0.5">
+		</ImageButton>
+			
+	
+	</TableRow>
+	<TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+		<ImageButton android:id="@+id/BoutonGauche"
+			android:layout_width="wrap_content" android:background="@null"
+			android:src="@drawable/fleche_gauche" android:layout_height="wrap_content" 
+			android:scaleType="fitXY" android:adjustViewBounds="true"
+			android:layout_weight="0.5">
+		</ImageButton>
+		<ImageButton android:id="@+id/BoutonOK"
+			android:layout_width="wrap_content" android:background="@null"
+			android:src="@drawable/bouton_ok" android:layout_height="wrap_content" 
+			android:layout_weight="0.5" android:scaleType="fitXY" android:adjustViewBounds="true">
+		</ImageButton>
+		<ImageButton android:id="@+id/BoutonDroite"
+			android:layout_width="wrap_content" android:background="@null"
+			android:src="@drawable/fleche_droite" android:layout_height="wrap_content" 
+			android:scaleType="fitXY" android:adjustViewBounds="true"
+			android:layout_weight="0.5">
+		</ImageButton>
+
+	</TableRow>
+	<TableRow android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+	
+		
+		<ImageButton android:id="@+id/BoutonInfo"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:background="@null" android:src="@drawable/bouton_info"
+			android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_weight="0.5">
+		</ImageButton>
+		
+		<ImageButton android:id="@+id/BoutonBas"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:background="@null" android:src="@drawable/fleche_bas"
+			android:scaleType="fitXY" android:adjustViewBounds="true"
+			android:layout_weight="0.5">
+		</ImageButton>
+		
+		<ImageButton android:id="@+id/BoutonDisplay"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:background="@null" android:src="@drawable/bouton_display"
+			android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_weight="0.5">
+		</ImageButton>
+	</TableRow>
+<TableLayout 
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TableRow android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+	
+		
+		<ImageButton android:id="@+id/BoutonPrevious"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:src="@drawable/bouton_previous"
+			android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_weight="0.5">
+		</ImageButton>
+		
+		<ImageButton android:id="@+id/BoutonPlayPause"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:src="@drawable/bouton_playpause"
+			android:scaleType="fitXY" android:adjustViewBounds="true"
+			android:layout_weight="0.5">
+		</ImageButton>
+		
+		<ImageButton android:id="@+id/BoutonStop"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:src="@drawable/bouton_stop"
+			android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_weight="0.5">
+		</ImageButton>
+		<ImageButton android:id="@+id/BoutonNext"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:src="@drawable/bouton_next"
+			android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_weight="0.5">
+		</ImageButton>
+<!--			android:background="@null"-->
+		
+		<ImageButton android:id="@+id/BoutonContexte"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:src="@drawable/bouton_contexte"
+			android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_weight="0.5">
+		</ImageButton>
+	</TableRow>
+</TableLayout>
+</TableLayout>

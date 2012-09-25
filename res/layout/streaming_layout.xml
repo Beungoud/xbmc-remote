@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+	android:id="@+id/text"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Coucou les amis"/><LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content"><TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_gravity="center" android:stretchColumns="1">
+    <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1">
+    	<Button android:id="@+id/stop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Stop" />
+ 
+        <Button android:id="@+id/start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Start" />
+ 
+        <Button android:id="@+id/pause" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Pause" />
+    </TableRow>
+  </TableLayout></LinearLayout><ListView android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/playlist">
+</ListView>
+ 
+      
+ 
+
+</LinearLayout>

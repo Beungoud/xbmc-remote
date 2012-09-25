@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="CouleurListe">#EEEEEEFF</color>
+	<color name="CouleurNoire">#000000</color>
+	<color name="CouleurGrisSombre">#222222</color>
+	<color name="listitem_back">#EEEEEE</color>
+	<color name="listitem_back_selected">#000000FF</color>
+	<color name="transparent">#00000000</color>
+	<color name="light_gray">#FF6e6e6e</color>
+	<color name="black">#FF000000</color>
+	<color name="white">#FFFFFFFF</color>
+</resources>

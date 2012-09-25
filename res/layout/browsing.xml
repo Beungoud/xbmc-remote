@@ -1,0 +1,22 @@
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical">
+	<LinearLayout android:id="@+id/LinearLayout02"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<ImageView android:src="@drawable/dvd" android:scaleType="fitXY"
+			android:adjustViewBounds="true" android:maxWidth="35dp"
+			android:maxHeight="35dp" android:minHeight="35dp" android:minWidth="35dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_gravity="center" android:layout_weight="0"
+			android:id="@+id/MediaTypeImage"></ImageView>
+		<TextView android:id="@+id/BrowsingTitle"
+			android:text="gdfgdfgdfgsdfgsdfg sdfg sdfg dfsg sdf gdfg"
+			android:textSize="20dp" android:textColor="@color/CouleurArtiste"
+			android:layout_weight="0.5" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:layout_gravity="center"></TextView>
+	</LinearLayout>
+	<ListView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/BrowsingList" android:divider="@drawable/listseparator" android:dividerHeight="1dip"></ListView>
+
+</LinearLayout>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="fill_parent"
+	android:layout_width="fill_parent" android:background="@color/light_gray">
+	<LinearLayout android:id="@+id/BoutonDisplay"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="vertical" android:layout_marginBottom="1px"
+		android:layout_gravity="center_horizontal" android:background="@color/black">
+		<ImageButton android:id="@+id/ButtonDisplay"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:scaleType="fitXY" android:adjustViewBounds="true"
+			android:layout_weight="0.5"
+			android:layout_gravity="center_horizontal" android:background="@drawable/button_bg" android:src="@drawable/img_button_display" android:paddingBottom="7dip" android:paddingTop="7dip">
+		</ImageButton>
+		
+	</LinearLayout>
+	<LinearLayout android:id="@+id/BoutonsCommandes"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal" android:layout_marginBottom="1px"
+		android:background="@drawable/gradient">
+		<ImageButton android:id="@+id/ButtonPrev"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:scaleType="fitXY" android:adjustViewBounds="true"
+			android:src="@drawable/img_button_prev" android:layout_weight="0.5"
+			android:background="@drawable/button_bg">
+		</ImageButton>
+		<ImageButton android:id="@+id/ButtonPlay"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:scaleType="fitXY" android:adjustViewBounds="true"
+			android:src="@drawable/img_button_play" android:layout_weight="0.5"
+			android:background="@drawable/button_bg">
+		</ImageButton>
+		<ImageButton android:id="@+id/ButtonNext"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:scaleType="fitXY" android:adjustViewBounds="true"
+			android:src="@drawable/img_button_next" android:layout_weight="0.5"
+			android:background="@drawable/button_bg">
+		</ImageButton>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/BoutonsCommandes2"
+		android:layout_height="wrap_content" android:background="@color/black"
+		android:layout_marginBottom="1px" android:layout_gravity="center"
+		android:layout_width="fill_parent" android:orientation="vertical">
+		<LinearLayout android:id="@+id/BoutonsCommandes2"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:background="@color/black" android:layout_marginBottom="1px"
+			android:layout_width="wrap_content" android:layout_gravity="center">
+			<ImageButton android:id="@+id/ButtonRew"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:scaleType="fitXY" android:src="@drawable/img_button_rew"
+				android:background="@drawable/button_bg" android:adjustViewBounds="true">
+			</ImageButton>
+			<ImageButton android:id="@+id/ButtonPause"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:scaleType="fitXY" android:adjustViewBounds="true"
+				android:src="@drawable/img_button_pause" android:background="@drawable/button_bg">
+			</ImageButton>
+			<ImageButton android:id="@+id/ButtonStop"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:scaleType="fitXY" android:adjustViewBounds="true"
+				android:src="@drawable/img_button_stop" android:background="@drawable/button_bg">
+			</ImageButton>
+			<ImageButton android:id="@+id/ButtonFfw"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:scaleType="fitXY" android:adjustViewBounds="true"
+				android:src="@drawable/img_button_ffw" android:background="@drawable/button_bg">
+			</ImageButton>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/FlechesPlusBoutons"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_marginBottom="1px">
+		<LinearLayout android:id="@+id/FlechesV"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:orientation="vertical" android:layout_weight="0.5"
+			android:background="@drawable/gradient">
+			<LinearLayout android:id="@+id/FlechesH1"
+				android:layout_height="wrap_content" android:orientation="horizontal"
+				android:layout_gravity="center" android:layout_width="wrap_content">
+				<ImageButton android:id="@+id/BoutonHaut"
+					android:layout_width="wrap_content" android:adjustViewBounds="true"
+					android:src="@drawable/img_button_up" android:layout_height="wrap_content"
+					android:scaleType="fitCenter" android:background="@drawable/button_bg">
+				</ImageButton>
+			</LinearLayout>
+			<LinearLayout android:id="@+id/FlechesH2"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:orientation="horizontal" android:layout_gravity="center">
+				<ImageButton android:id="@+id/BoutonGauche"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:scaleType="fitXY" android:adjustViewBounds="true"
+					android:src="@drawable/img_button_left" android:layout_weight="0.5"
+					android:background="@drawable/button_bg">
+				</ImageButton>
+				<ImageButton android:id="@+id/BoutonOk"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:scaleType="fitXY" android:adjustViewBounds="true"
+					android:src="@drawable/img_button_ok" android:layout_weight="0.5"
+					android:background="@drawable/button_bg">
+				</ImageButton>
+				<ImageButton android:id="@+id/BoutonDroite"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:scaleType="fitXY" android:adjustViewBounds="true"
+					android:src="@drawable/img_button_right" android:layout_weight="0.5"
+					android:background="@drawable/button_bg">
+				</ImageButton>
+			</LinearLayout>
+			<LinearLayout android:id="@+id/FlechesH3"
+				android:layout_height="wrap_content" android:orientation="horizontal"
+				android:layout_width="wrap_content" android:layout_gravity="center">
+				<ImageButton android:id="@+id/BoutonBas"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:scaleType="fitXY" android:adjustViewBounds="true"
+					android:src="@drawable/img_button_down" android:background="@drawable/button_bg">
+				</ImageButton>
+			</LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout android:id="@+id/menutitleinfoback"
+			android:layout_width="wrap_content" android:orientation="vertical"
+			android:layout_height="fill_parent" android:layout_weight="0.5"
+			android:background="@null">
+
+			<ImageButton android:id="@+id/BoutonMenu" android:src="@drawable/img_button_menu"
+				android:scaleType="fitXY" android:adjustViewBounds="true"
+				android:layout_marginLeft="1px" android:layout_marginBottom="1px"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:layout_weight="0.5" android:background="@color/black">
+			</ImageButton>
+			<ImageButton android:id="@+id/BoutonTitle"
+				android:adjustViewBounds="true" android:scaleType="fitXY"
+				android:layout_marginLeft="1px" android:layout_marginBottom="1px"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:layout_weight="0.5" android:background="@color/black"
+				android:src="@drawable/img_button_home">
+			</ImageButton>
+			<ImageButton android:id="@+id/BoutonInfo"
+				android:adjustViewBounds="true" android:src="@drawable/img_button_info"
+				android:scaleType="fitXY" android:layout_marginLeft="1px"
+				android:layout_marginBottom="1px" android:layout_height="fill_parent"
+				android:layout_weight="0.5" android:layout_width="fill_parent"
+				android:background="@color/black">
+			</ImageButton>
+			<ImageButton android:id="@+id/BoutonBack"
+				android:adjustViewBounds="true" android:src="@drawable/img_button_back"
+				android:scaleType="fitXY" android:layout_marginLeft="1px"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:layout_weight="0.5" android:background="@color/black">
+			</ImageButton>
+
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/MusicnCo"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:background="@color/black">
+		<ImageButton android:id="@+id/BoutonMusic"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:scaleType="fitXY" android:adjustViewBounds="true"
+			android:src="@drawable/img_button_music" android:layout_weight="0.5"
+			android:background="@drawable/button_bg">
+		</ImageButton>
+
+		<ImageButton android:id="@+id/BoutonVideo"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:scaleType="fitXY" android:adjustViewBounds="true"
+			android:src="@drawable/img_button_video" android:layout_weight="0.5"
+			android:background="@drawable/button_bg">
+		</ImageButton>
+
+		<ImageButton android:id="@+id/BoutonPicture"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:scaleType="fitXY" android:adjustViewBounds="true"
+			android:src="@drawable/img_button_picture" android:layout_weight="0.5"
+			android:background="@drawable/button_bg">
+		</ImageButton>
+
+	</LinearLayout>
+</LinearLayout>

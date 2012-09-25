@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">XBMC Remote control</string>
+    <string name="app_name">XBMC remote</string>
+	<string name="menu_settings">Settings</string>
+	<string name="menu_whatsnew">What\'s new</string>
+	<string name="menu_nowplaying">Now Playing</string>
+	<string name="menu_remote">Remote</string>
+	<string name="ip_address">IP Address</string>
+	<string name="port">Port</string>
+	<string name="digits">3216549870</string>
+	<string name="login">Login</string>
+	<string name="password">Password</string>
+	<string name="server">Server</string>
+	<string name="ok_button">OK</string>
+	<string name="shared_preference_name">xbmc_shared_preference</string>
+	<string name="global_settings">Global settings :</string>
+	<string name="enable_thumbs">Enable thumbnails (beta)</string>
+	<string name="key_ip_address">IP Address</string>
+	<string name="key_port">Port</string>
+	<string name="key_login">Login</string>
+	<string name="key_password">Password</string>
+	<string name="key_version">Version</string>
+	
+	<string name="main_menu_now_playing">Now Playing</string>
+	<string name="main_menu_music">Music</string>
+	<string name="main_menu_videos">Videos</string>
+	<color name="CouleurArtiste">#FFDDDD</color>
+	<string name="browsing_name">Browsing</string>
+	<string name="key_media_type">media_type</string>
+	<string name="key_browsing_path">browsing_path</string>
+	<string name="key_browsing_type">browsing_type</string>
+	<string name="browsing_type_file">file</string>
+	<string name="browsing_type_database">Database</string>
+
+	<string name="media_type_video">video</string>
+	<string name="media_type_pictures">pictures</string>
+	<string name="media_type_music">music</string>
+	
+	<string name="media_type_tvshow">tv_show</string>
+	<string name="media_type_movies">movies</string>
+	
+	<string name="enqueue">Enqueue</string>
+	<string name="play">Play</string>
+	<string name="slideshow">Play slide show</string>
+	<string name="enqueueSlide">Add to slide show</string>
+	
+	<string name="clear_playlist">Clear PlayList</string>
+	<string name="stream_music">Stream Music</string>
+<string name="error_connexion_message">Error while connecting to XBMC. Please check configuration. XBMC should be configured to &quot;allow control of XBMC via HTTP&quot;.</string>
+<string name="erreur_connexion_titre">Connexion error</string>
+</resources>

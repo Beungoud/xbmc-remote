@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView  xmlns:android="http://schemas.android.com/apk/res/android" 
+android:paddingLeft="20px"  android:text="@+id/TextView01" android:id="@+id/TextView01" 
+android:layout_height="wrap_content" android:textColor="@color/white" android:layout_width="fill_parent" 
+android:drawableRight="@drawable/img_menu_spinner" android:gravity="center_vertical"></TextView>
+

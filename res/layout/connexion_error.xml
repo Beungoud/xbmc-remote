@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent">
+	<ImageView android:id="@+id/ImageView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:src="@drawable/erreur" android:scaleType="fitXY"
+		android:adjustViewBounds="true" android:layout_marginLeft="20dip"
+		android:layout_marginRight="20dip" android:layout_marginTop="20dip"
+		android:layout_marginBottom="20dip" android:maxHeight="100dip" android:layout_gravity="center"></ImageView>
+	<TextView android:text="@+id/TextView01"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content"
+		android:id="@+id/ErreurMessage" android:layout_width="fill_parent" android:layout_gravity="center"></TextView>
+
+
+</LinearLayout>
+
+<!--<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ConfigureButton" android:text="Configure" android:visibility="invisible"></Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/CancelButton" android:text="Cancel" android:visibility="invisible"></Button>-->
+<!--</LinearLayout>-->
+
+</LinearLayout>
